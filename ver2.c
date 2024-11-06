@@ -36,7 +36,7 @@ int main(int argc, char *argv[]) {
     pthread_join(threads[i], NULL);
   }
   
-    for (int i = 0; i < numThreads; i++) {
+  for (int i = 0; i < numThreads; i++) {
     finalCounter += counters[i];
   }
 
