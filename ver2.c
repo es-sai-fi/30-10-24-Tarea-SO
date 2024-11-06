@@ -23,7 +23,7 @@ int main(int argc, char *argv[]) {
   numThreads = atoi(argv[2]);
   
   int *counters = malloc(numThreads * sizeof(int));
-    for (int i = 0; i < numThreads; i++) {
+  for (int i = 0; i < numThreads; i++) {
     counters[i] = 0;
   }
   int finalCounter = 0;
